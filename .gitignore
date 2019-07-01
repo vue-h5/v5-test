@@ -57,3 +57,4 @@ local.properties
 *.iml
 
 # 添加你自己要忽略的文件
+*/dist
