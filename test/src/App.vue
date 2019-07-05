@@ -7,7 +7,7 @@
 				:to="item.to"
 			>{{item.lable}}</router-link>
 		</div>
-		<v5-button>Btn</v5-button>
+		<v5-button @click="alertEvt">Btn</v5-button>
 		<v5-swiper>
 			<v5-swiper-item>h1</v5-swiper-item>
 			<v5-swiper-item>h1</v5-swiper-item>
@@ -40,6 +40,11 @@ export default {
 					to: '/about'
 				}
 			]
+		}
+	},
+	methods: {
+		alertEvt () {
+			this.$v5Alert()
 		}
 	}
 }
