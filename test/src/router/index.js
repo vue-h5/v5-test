@@ -16,6 +16,10 @@ export default new Router({
 		{
 			path: '/about',
 			component: loadView('about')
+		},
+		{
+			path: '/form',
+			component: loadView('form')
 		}
 	]
 })

@@ -38,6 +38,10 @@ export default {
 				{
 					lable: 'About',
 					to: '/about'
+				},
+				{
+					lable: 'Form',
+					to: '/form'
 				}
 			]
 		}
