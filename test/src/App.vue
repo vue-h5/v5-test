@@ -17,14 +17,12 @@
 </template>
 
 <script>
-import v5Button from '@ektx/v5/lib/components/button'
 import V5Swiper from '@ektx/v5/lib/components/swiper'
 import V5SwiperItem from '@ektx/v5/lib/components/swiperItem'
 
 export default {
 	name: 'app',
 	components: {
-		v5Button,
 		V5Swiper,
 		V5SwiperItem
 	},
